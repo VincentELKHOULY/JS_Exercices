@@ -15,6 +15,7 @@
     align-items: center;
     padding: 3rem;
     opacity: 1; /*Modification de cette valeur en JS*/
+    transition: 0.5s;
 }
 .coockies-btn {
     display: flex;
