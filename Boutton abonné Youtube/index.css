@@ -1,0 +1,21 @@
+.bloc-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 1rem;
+    background-color: #b5b5b5;
+    border: none;
+    color: #1e2337;
+}
+
+.happy {
+    color: orange;
+}
+
+.abonne {
+    background-color: orange;
+    color: white;
+}
