@@ -1,0 +1,71 @@
+/*style menu desktop*/
+.navbar-desktop {
+    height: 8rem;
+    line-height: 8rem;
+    text-align: center;
+    background-color: gray;
+}
+
+.navbar-desktop a {
+    padding: 3rem;
+}
+
+/*style menu mobile*/
+
+
+
+.navbar-mobile {
+    display: none;
+}
+
+.navbar-mobile i {
+    position: fixed;
+    top: 9px;
+    right: 15px;
+    font: 3rem;
+    color: red;
+    z-index: 9999;
+    color: white;
+}
+
+.navbar-mobile .modal {
+    background-color: blueviolet;
+    height: 100vh;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    width: 100%;
+    opacity: 0.9;
+    transition: top 0.9s;
+}
+
+.navbar-mobile .navbar-mobile-list {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-mobile .navbar-mobile-list a {
+    font-size: 5rem;
+    font-weight: 800;
+    color: black;
+    padding: 2rem;
+}
+
+.change-modal {
+    top: 0;
+}
+
+/*media queries*/
+
+@media screen and (max-width : 700px) {
+    .navbar-desktop {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: block;
+    }
+}
