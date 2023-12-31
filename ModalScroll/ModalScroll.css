@@ -1,0 +1,77 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.part2 {
+    background-color: orange;
+}
+
+.part3 {
+    background-color: red;
+}
+
+/*modal*/
+.modal-container {
+    display: none;
+    height: 100vh;
+    /*couvre toute la page*/
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(136, 222, 136, 0.8);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-details {
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    /*Pour positionner l'icone*/
+    padding: 3rem;
+    color: #1e2337;
+}
+
+.modal-details .cross-del {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: grey;
+}
+
+/*LE TITRE*/
+.modal-titre {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+/*LE CODE*/
+
+.code {
+    display: none;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 1rem;
+
+}
+
+/*BOUTON*/
+.btn-success {
+    height: 4rem;
+    background-color: orange;
+    color: white;
+    padding: 1rem;
+    border: none;
+    width: 100%;
+}
