@@ -1,0 +1,31 @@
+body {
+    color: #777;
+}
+
+.container {
+    background-color: #eee;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: green;
+}
+
+.container-notifications {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 3rem;
+    font-size: 1.2rem;
+}
+
+.toast {
+    padding: 1rem;
+    margin: 0.7rem;
+    border: 1px solid rgb(181, 181, 181);
+    border-left: 3px solid green;
+
+}
