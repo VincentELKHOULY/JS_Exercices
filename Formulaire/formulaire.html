@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en fr">
+<head>
+    <link rel="stylesheet" href="formulaire .css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+    <h1 id="titre">TITRE</h1>
+    <form action=""id="formulaire">
+        
+        <div class="form-item">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" placeholder="Votre prénom">
+            <div class="error invisible">Ce champ doit contenir 2 a 10 lettres</div>
+        </div>
+        <div class="form-item">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" placeholder="Votre nom">
+            <div class="error invisible">Ce champ doit contenir 3 a 15 lettres</div>
+        </div>
+        <div class="form-item">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Votre email">
+            
+        </div>
+        <div class="form-item">
+            <label for="message">Votre message</label>
+            <input type="text" id="message" placeholder="Ecrivez votre message">
+            <div class="error invisible">Ce champ doit contenir 10 a 100 lettres</div>
+        </div>
+        <button type="submit" id="btn">Envoyer</button>
+    </form>
+    <script src="formulaire.js"></script>
+</body>
+</html>
