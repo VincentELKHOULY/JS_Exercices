@@ -1,32 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To do list</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <div class="main-container">
-      <h1>TO DO LIST</h1>
-      <ol>
-        <li></li>
-        
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ol>
-      <div class="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
-      </div>
-      </div>
-    </div>
+<html lang="en fr">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO LIST
 
-    <script src="index.js"></script>
-  </body>
+  </title>
+</head>
+<body>
+  <div class="main-container">
+    <section id="todo-list">
+      <form action="" id="form">
+        <input type="text" placeholder="Ici votre todo" id="todo" autocomplete="off">
+        <button type="submit" id="addButton">
+          <i class="fas fa-plus"></i>
+        </button>
+      </form>
+      <div class="list-items"></div>
+    </section>
+  </div>
+  <script src="index.js"></script>
+</body>
 </html>
